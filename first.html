@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio Website</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url(background.jpeg);
+            background-position: center;
+
+        }
+
+        .left img {
+            width: 110px;
+            height: 140px;
+            background-color: rgb(2, 2, 25);
+            vertical-align: text-bottom;
+            margin: o;
+            padding: 0;
+            display: inline-block;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        ul li {
+            list-style-type: none;
+            justify-content: center;
+            float: left;
+            text-align: center;
+            border: 1px, solid, rgb(1, 1, 28);
+            background-color: rgb(1, 1, 28);
+            height: 50;
+            vertical-align: text-bottom;
+            margin: 0 23px;
+            display: inline-block;
+
+        }
+
+        ul li a {
+            list-style-type: none;
+            color: white;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            color: blueviolet;
+            font-size: 1.5rem;
+            text-decoration: underline;
+        }
+
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+            margin: 30px 0;
+        }
+
+        .rightSection img {
+            width: 75%;
+        
+        }
+
+        .purple {
+            color: rgb(150, 51, 243);
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .button {
+            font-size: 1.5rem;
+            color: red;
+            text-decoration: none;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        #about h1 {
+            font-size: 1.7rem;
+            color: blue;
+        }
+
+        .paragraph {
+            color: whitesmoke;
+            font-size: 1.5rem;
+            text-align: justify;
+        }
+
+        .thirdSection {
+            display: flex;
+            justify-content: space-around;
+            max-width: 80vw;
+            margin: auto;
+        }
+
+
+        .image {
+            margin: 52px;
+            padding: 52px;
+            display: inline-block;
+        }
+
+        .imgp1 {
+            font-size: 1.5rem;
+            color: whitesmoke;
+            text-align: left;
+        }
+
+        .fourthSection {
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+        }
+
+        #skills h1 {
+            font-size: 1.7rem;
+            color: blue;
+            text-align: left;
+        }
+
+        .skills-img {
+            display: inline block;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .fifthSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        #project h1 {
+            color: blue;
+            font-size: 1.7rem;
+        }
+
+        .project-img {
+            padding: 30px 100px 30px 100px;
+            display: inline-block;
+        }
+
+        .project-img p {
+            font-size: 1.3rem;
+        }
+
+        .sixthSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        #contact h1 {
+            font-size: 1.7rem;
+        }
+
+        .contact-img {
+            margin: 30px 200px 30px 200px;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="logo-ps.jpg">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About me</a></li>
+                    <li><a href="/">Education</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hii!! There ,
+                <div>I'm <span class="purple">Pushpanjali Singh.</span></div>
+                <div> and I'm a passionate</div>
+                <span id="element"></span>
+                <br>
+                <button><a href="resume.jpg" class="button">Resume </a></button>
+            </div>
+            <div class="rightSection">
+                <img src="my pic.jpg">
+            </div>
+        </section>
+    
+        <section class="secondSection">
+            <div id="about">
+                <h1>About Me</h1>
+                <div class="paragraph">
+                    <p>I'm a passionate learner with strong technical skills.I posses a problem-solving mindset and
+                        a curious nature that drives to explore and understand the intricacias of technology.Beyond my
+                        studies,I
+                        am an avid reader,
+                        a tech enthusiast, and a firm believer in continuous growth and personal development.I am
+                        excited to
+                        leaverage my education
+                        and skills to make a positive impact in the world of technology contribute to meaningful
+                        projects that
+                        drive progress and
+                        innovation.
+                    </p>
+                </div>
+        </section>
+    <br>
+    <br>
+    <br>
+        <section class="thirdSection">
+            <div id="">
+                <h1 style="color:blue; font-size: 1.8rem;"> Education</h1>
+                <div class="image">
+                    <img src="school.jpg" height="200px" width="100%">
+                    <p>10 with 90%</p>
+                    <p>12 with 90%</p>
+                    <p>from Kendriya Vidyalaya</p>
+                </div>
+                <div class="image">
+                    <img src="college.jpg" height="200px" width="100%">
+                    <p>Persuing Btech with Information Technology</p>
+                    <p>from G.L. Bajaj Institute of Technology and Management</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="fourthSection">
+            <div id="skills">
+                <h1>Skills</h1>
+                <div class="skills-img">
+                    <img src="c png.jpg" height="170px" width="30%">
+                    <img src="python png.jpg" height="170px" width="33%">
+                    <img src="hcj png.jpg" height="170px" width="30%">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="fifthSection">
+            <div id="projects">
+                <h1 style="color:blue">Project</h1>
+                <div class="project-img">
+                    <img src="project png.jpg" height="200px" width="100%"><br>
+                    <p> Portfolio Websites</p>
+                </div>
+                <div class="project-img">
+                    <img src="music player.jpg" height="200px" width="150%"><br>
+                    <p> Music Player Application</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="sixthSection">
+            <div id="contact">
+                <h1 style="color:blue">Contact</h1>
+                <div class="social media">
+                    <a href=https://www.linkedin.com/in/pushpanjali-singh-a160a8247><img src="linkdln png.jpg"
+                            alt="Linkedin" heignt="50px" width="10%"></a>
+                    <a href=https://instagram.com/pushpanjali_singh_2508?igshid=ZDc4ODBmNjlmNQ==><img
+                            src="insta png.jpg" alt="Instagram" height="50px" width="10%"></a>
+                    <a href=https://telegram.com/t.me/@pushpanjali_singh_2508><img src=" telegram png.jpg"
+                            alt="Telegram" height="50px" width="10%"></a>
+                    <a href=https://gmail.com/pushpanjalisingh2508@gmail.com><img src="gmail png.jpg" height="50px"
+                            width="10%"></a>
+                </div>
+            </div>
+        </section>
+        <hr>
+    </main> <!-- Element to contain animated typing -->
+    <span id="element"></span>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Programmer.', 'Web Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</body>
+
+</html>
